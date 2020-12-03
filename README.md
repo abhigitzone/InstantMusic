@@ -1,8 +1,8 @@
 # InstantMusic
-Built this music app in idea with Spotify to work alike. 
-This app fetches music from its Firebase back-end server where music is updated frequently. Users can share, download, and surf for the best music online.
-
+Built this music app in idea with Spotify to look alike. 
 Note: This app is under development. Only the UI part has been done yet.
+Yet to be done : Fetch music from Firebase back-end server where music is uploaded frequently. Users can share, download, and surf for the best music online.
+
 Here is the Screenshot: 
 
 ![Screenshot_20200818-114024](https://user-images.githubusercontent.com/19603894/90477127-7a103980-e148-11ea-9203-f5deda6a7adf.png)
