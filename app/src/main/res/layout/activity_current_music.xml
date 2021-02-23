@@ -11,8 +11,7 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
-    <ImageView
-        android:id="@+id/song_img"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/songInformation"
@@ -21,9 +20,16 @@
         android:layout_marginStart="@dimen/ly_40"
         android:layout_marginTop="@dimen/ly_40"
         android:layout_marginEnd="@dimen/ly_40"
-        android:layout_marginBottom="@dimen/ly_12"
-        android:scaleType="centerCrop"
-        android:src="@drawable/song_album" />
+        android:layout_marginBottom="@dimen/ly_40">
+
+        <ImageView
+            android:id="@+id/song_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/song_album" />
+
+    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/songInformation"

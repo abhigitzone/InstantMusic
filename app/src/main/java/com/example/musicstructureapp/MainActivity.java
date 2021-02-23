@@ -8,8 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 
+import com.example.musicstructureapp.Fragment.HomeFragment;
+import com.example.musicstructureapp.Fragment.LibraryFragment;
+import com.example.musicstructureapp.Fragment.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {

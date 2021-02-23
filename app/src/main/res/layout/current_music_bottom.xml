@@ -27,12 +27,13 @@
             android:text="@string/song_name"
             android:textColor="@android:color/white" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/play_bottom"
             android:layout_width="@dimen/ly_zero"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:src="@drawable/ic_baseline_play_arrow_24" />
 
     </LinearLayout>

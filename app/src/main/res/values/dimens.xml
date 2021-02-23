@@ -20,4 +20,5 @@
     <dimen name="margin_14">14dp</dimen>
     <dimen name="txt_22">22sp</dimen>
     <dimen name="dp_180">180dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
 </resources>

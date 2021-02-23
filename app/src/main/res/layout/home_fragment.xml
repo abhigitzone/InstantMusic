@@ -5,15 +5,15 @@
     android:background="@drawable/library_background"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/ly_12"
-        android:layout_marginTop="@dimen/ly_40"
-        android:fontFamily="@font/balsamiq_sans_bold"
-        android:text="@string/good_evening"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/txt_26" />
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="@dimen/ly_12"
+         android:layout_marginTop="@dimen/ly_40"
+         android:fontFamily="@font/montserrat_bold"
+         android:text="@string/good_evening"
+         android:textColor="@android:color/white"
+         android:textSize="@dimen/txt_22" />-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/home_recycler"
